@@ -7,8 +7,8 @@ namespace Perrinn424.AISpeedEstimatorSystem
     public class AISpeedEstimator : IDisposable
     {
         private readonly Model runtimeModel;
-        private readonly IWorker engine;
-        private readonly TensorFloat tensorInput;
+        private readonly Worker worker;
+        private readonly Tensor<float> tensorInput;
 
         private float evaluateSpeed;
         public float EstimatedSpeed { get; private set; }
@@ -16,8 +16,8 @@ namespace Perrinn424.AISpeedEstimatorSystem
         public AISpeedEstimator(ModelAsset modelAsset)
         {
             runtimeModel = ModelLoader.Load(modelAsset);
-            engine = WorkerFactory.CreateWorker(BackendType.CPU, runtimeModel);
-            tensorInput = TensorFloat.Zeros(new TensorShape(1, AISpeedEstimatorInput.count));
+            worker = new Worker(runtimeModel, BackendType.CPU);
+            tensorInput = new Tensor<float>(new TensorShape(1, AISpeedEstimatorInput.count)); 
         }
 
         /// <summary>
@@ -29,14 +29,16 @@ namespace Perrinn424.AISpeedEstimatorSystem
         {
             UpdateValues(ref input);
 
-            engine.Execute(tensorInput);
+            worker.Schedule(tensorInput);
 
-            TensorFloat tensorOutput = engine.PeekOutput() as TensorFloat;
+            Tensor<float> tensorOutput = worker.PeekOutput() as Tensor<float>;
+            
+            float[] results = tensorOutput?.DownloadToArray();
 
-            evaluateSpeed = tensorOutput[0];  // First value of the output tensor
+            evaluateSpeed = results[0];  // First value of the output tensor
             EstimatedSpeed = evaluateSpeed / 3.6f;  // Convert from km/h to m/s
 
-            tensorOutput.Dispose();
+            tensorOutput?.Dispose();
 
             return EstimatedSpeed;
         }
@@ -58,7 +60,7 @@ namespace Perrinn424.AISpeedEstimatorSystem
         public void Dispose()
         {
             tensorInput.Dispose();
-            engine.Dispose();
+            worker.Dispose();
         }
     } 
 }
