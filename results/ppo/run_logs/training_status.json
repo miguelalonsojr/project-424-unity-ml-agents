@@ -1,0 +1,110 @@
+{
+    "Perrinn424Agent": {
+        "checkpoints": [
+            {
+                "steps": 5999963,
+                "file_path": "results/ppo/Perrinn424Agent/Perrinn424Agent-5999963.onnx",
+                "reward": 0.5562666043754646,
+                "creation_time": 1733211903.2471611,
+                "auxillary_file_paths": [
+                    "results/ppo/Perrinn424Agent/Perrinn424Agent-5999963.pt"
+                ]
+            },
+            {
+                "steps": 6499963,
+                "file_path": "results/ppo/Perrinn424Agent/Perrinn424Agent-6499963.onnx",
+                "reward": 0.5900359563529491,
+                "creation_time": 1733213241.0654871,
+                "auxillary_file_paths": [
+                    "results/ppo/Perrinn424Agent/Perrinn424Agent-6499963.pt"
+                ]
+            },
+            {
+                "steps": 6999963,
+                "file_path": "results/ppo/Perrinn424Agent/Perrinn424Agent-6999963.onnx",
+                "reward": null,
+                "creation_time": 1733214577.566714,
+                "auxillary_file_paths": [
+                    "results/ppo/Perrinn424Agent/Perrinn424Agent-6999963.pt"
+                ]
+            },
+            {
+                "steps": 7499963,
+                "file_path": "results/ppo/Perrinn424Agent/Perrinn424Agent-7499963.onnx",
+                "reward": 0.579649972418944,
+                "creation_time": 1733215916.221313,
+                "auxillary_file_paths": [
+                    "results/ppo/Perrinn424Agent/Perrinn424Agent-7499963.pt"
+                ]
+            },
+            {
+                "steps": 7999907,
+                "file_path": "results/ppo/Perrinn424Agent/Perrinn424Agent-7999907.onnx",
+                "reward": 0.5617608949542046,
+                "creation_time": 1733217242.223042,
+                "auxillary_file_paths": [
+                    "results/ppo/Perrinn424Agent/Perrinn424Agent-7999907.pt"
+                ]
+            },
+            {
+                "steps": 8499927,
+                "file_path": "results/ppo/Perrinn424Agent/Perrinn424Agent-8499927.onnx",
+                "reward": 0.6175730973482132,
+                "creation_time": 1733218585.22607,
+                "auxillary_file_paths": [
+                    "results/ppo/Perrinn424Agent/Perrinn424Agent-8499927.pt"
+                ]
+            },
+            {
+                "steps": 8999927,
+                "file_path": "results/ppo/Perrinn424Agent/Perrinn424Agent-8999927.onnx",
+                "reward": 0.6487660966813564,
+                "creation_time": 1733219916.900695,
+                "auxillary_file_paths": [
+                    "results/ppo/Perrinn424Agent/Perrinn424Agent-8999927.pt"
+                ]
+            },
+            {
+                "steps": 9499934,
+                "file_path": "results/ppo/Perrinn424Agent/Perrinn424Agent-9499934.onnx",
+                "reward": 0.6342087872326374,
+                "creation_time": 1733221250.777229,
+                "auxillary_file_paths": [
+                    "results/ppo/Perrinn424Agent/Perrinn424Agent-9499934.pt"
+                ]
+            },
+            {
+                "steps": 9999967,
+                "file_path": "results/ppo/Perrinn424Agent/Perrinn424Agent-9999967.onnx",
+                "reward": null,
+                "creation_time": 1733222588.467575,
+                "auxillary_file_paths": [
+                    "results/ppo/Perrinn424Agent/Perrinn424Agent-9999967.pt"
+                ]
+            },
+            {
+                "steps": 10000067,
+                "file_path": "results/ppo/Perrinn424Agent/Perrinn424Agent-10000067.onnx",
+                "reward": null,
+                "creation_time": 1733222588.500072,
+                "auxillary_file_paths": [
+                    "results/ppo/Perrinn424Agent/Perrinn424Agent-10000067.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 10000067,
+            "file_path": "results/ppo/Perrinn424Agent.onnx",
+            "reward": null,
+            "creation_time": 1733222588.500072,
+            "auxillary_file_paths": [
+                "results/ppo/Perrinn424Agent/Perrinn424Agent-10000067.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.4.1"
+    }
+}

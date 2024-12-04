@@ -1,0 +1,110 @@
+{
+    "RacerAgent": {
+        "checkpoints": [
+            {
+                "steps": 999900,
+                "file_path": "results\\racer-agent-final\\RacerAgent\\RacerAgent-999900.onnx",
+                "reward": 3.8876835536956786,
+                "creation_time": 1703112104.1156938,
+                "auxillary_file_paths": [
+                    "results\\racer-agent-final\\RacerAgent\\RacerAgent-999900.pt"
+                ]
+            },
+            {
+                "steps": 1499983,
+                "file_path": "results\\racer-agent-final\\RacerAgent\\RacerAgent-1499983.onnx",
+                "reward": 4.313577648997307,
+                "creation_time": 1703113856.2482536,
+                "auxillary_file_paths": [
+                    "results\\racer-agent-final\\RacerAgent\\RacerAgent-1499983.pt"
+                ]
+            },
+            {
+                "steps": 1999912,
+                "file_path": "results\\racer-agent-final\\RacerAgent\\RacerAgent-1999912.onnx",
+                "reward": 3.3997186704685816,
+                "creation_time": 1703115621.444889,
+                "auxillary_file_paths": [
+                    "results\\racer-agent-final\\RacerAgent\\RacerAgent-1999912.pt"
+                ]
+            },
+            {
+                "steps": 2499952,
+                "file_path": "results\\racer-agent-final\\RacerAgent\\RacerAgent-2499952.onnx",
+                "reward": 4.5713018353126245,
+                "creation_time": 1703117414.8183734,
+                "auxillary_file_paths": [
+                    "results\\racer-agent-final\\RacerAgent\\RacerAgent-2499952.pt"
+                ]
+            },
+            {
+                "steps": 2999911,
+                "file_path": "results\\racer-agent-final\\RacerAgent\\RacerAgent-2999911.onnx",
+                "reward": 5.297087709108989,
+                "creation_time": 1703119233.5350275,
+                "auxillary_file_paths": [
+                    "results\\racer-agent-final\\RacerAgent\\RacerAgent-2999911.pt"
+                ]
+            },
+            {
+                "steps": 3499921,
+                "file_path": "results\\racer-agent-final\\RacerAgent\\RacerAgent-3499921.onnx",
+                "reward": 5.225714828480374,
+                "creation_time": 1703121052.9108868,
+                "auxillary_file_paths": [
+                    "results\\racer-agent-final\\RacerAgent\\RacerAgent-3499921.pt"
+                ]
+            },
+            {
+                "steps": 3999983,
+                "file_path": "results\\racer-agent-final\\RacerAgent\\RacerAgent-3999983.onnx",
+                "reward": null,
+                "creation_time": 1703122877.6937358,
+                "auxillary_file_paths": [
+                    "results\\racer-agent-final\\RacerAgent\\RacerAgent-3999983.pt"
+                ]
+            },
+            {
+                "steps": 4499962,
+                "file_path": "results\\racer-agent-final\\RacerAgent\\RacerAgent-4499962.onnx",
+                "reward": 5.3549535116728615,
+                "creation_time": 1703124692.4705105,
+                "auxillary_file_paths": [
+                    "results\\racer-agent-final\\RacerAgent\\RacerAgent-4499962.pt"
+                ]
+            },
+            {
+                "steps": 4999913,
+                "file_path": "results\\racer-agent-final\\RacerAgent\\RacerAgent-4999913.onnx",
+                "reward": 5.399092911018266,
+                "creation_time": 1703126506.8626044,
+                "auxillary_file_paths": [
+                    "results\\racer-agent-final\\RacerAgent\\RacerAgent-4999913.pt"
+                ]
+            },
+            {
+                "steps": 5085782,
+                "file_path": "results\\racer-agent-final\\RacerAgent\\RacerAgent-5085782.onnx",
+                "reward": 5.259118249600458,
+                "creation_time": 1703126817.0607445,
+                "auxillary_file_paths": [
+                    "results\\racer-agent-final\\RacerAgent\\RacerAgent-5085782.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5085782,
+            "file_path": "results\\racer-agent-final\\RacerAgent.onnx",
+            "reward": 5.259118249600458,
+            "creation_time": 1703126817.0607445,
+            "auxillary_file_paths": [
+                "results\\racer-agent-final\\RacerAgent\\RacerAgent-5085782.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "2.1.1+cpu"
+    }
+}

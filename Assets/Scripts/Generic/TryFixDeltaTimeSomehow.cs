@@ -49,7 +49,7 @@ public class TryFixDeltaTimeSomehow : MonoBehaviour
 				break;
 
 			case CaptureRefreshRateMode.RefreshRate:
-				Time.captureFramerate = Screen.currentResolution.refreshRate;
+				Time.captureFramerate = (int)Screen.currentResolution.refreshRateRatio.value;
 				break;
 
 			case CaptureRefreshRateMode.SmoothDeltaTime:
