@@ -18,15 +18,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/ML-Agents/Scenes/424 Nordschleife Scene v2.unity
     guid: 9377ec85179c745f584f2c7795bf9f03
-  - enabled: 0
-    path: Assets/ML-Agents/Scenes/424 Nordschleife Scene v3 Training Scene.unity
-    guid: c93f4864d34ff422b839d91b22443df1
-  - enabled: 0
-    path: Assets/ML-Agents/Scenes/424 Nordschleife Scene - Time Trial.unity
-    guid: 9187b81fec92242fe9384b28083a72ab
   - enabled: 1
-    path: Assets/ML-Agents/Scenes/424 Nordschleife Scene v4 Training Scene.unity
-    guid: c8e9a1dc251d74179a9aacfb70acd26d
+    path: Assets/ML-Agents/Scenes/424 Nordschleife Scene v5 Training Scene.unity
+    guid: 5283818880a8d4077b60fc4115c94e75
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 6f3a465b2bfb52147937171407c463c4,
       type: 2}
