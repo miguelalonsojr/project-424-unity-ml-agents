@@ -47,6 +47,7 @@ MonoBehaviour:
   log: 1
   lapTimer: {fileID: 0}
   disableOnBuilds: 0
+  disableInEditor: 1
   frequency:
     frequency: 50
   channels:
@@ -151,6 +152,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1931774191110935799, guid: 1c2bc6b582ebcdb4e8baff52cef5108f,
@@ -498,6 +500,11 @@ PrefabInstance:
       propertyPath: ffbSettingsV2.simulatedTorqueRange
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 8113618665369125737, guid: 1c2bc6b582ebcdb4e8baff52cef5108f,
+        type: 3}
+      propertyPath: debugGizmos
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8671232185016553812, guid: 1c2bc6b582ebcdb4e8baff52cef5108f,
         type: 3}
       propertyPath: nextCameraKey
@@ -509,6 +516,33 @@ PrefabInstance:
       value: 20000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2483877716221292743, guid: 1c2bc6b582ebcdb4e8baff52cef5108f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4791252036806894813}
+    - targetCorrespondingSourceObject: {fileID: 2483877716221292743, guid: 1c2bc6b582ebcdb4e8baff52cef5108f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1484153392943897842}
+    - targetCorrespondingSourceObject: {fileID: 2483877716221292743, guid: 1c2bc6b582ebcdb4e8baff52cef5108f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5362218025529766842}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2483877715235533906, guid: 1c2bc6b582ebcdb4e8baff52cef5108f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2366694805963099143}
+    - targetCorrespondingSourceObject: {fileID: 2483877716263781659, guid: 1c2bc6b582ebcdb4e8baff52cef5108f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4084599790386495565}
+    - targetCorrespondingSourceObject: {fileID: 2483877716263781659, guid: 1c2bc6b582ebcdb4e8baff52cef5108f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7312595622897392818}
   m_SourcePrefab: {fileID: 100100000, guid: 1c2bc6b582ebcdb4e8baff52cef5108f, type: 3}
 --- !u!4 &2476090975396258038 stripped
 Transform:
@@ -589,6 +623,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 2476090975396258038}
     m_Modifications:
     - target: {fileID: 4095416709289502212, guid: 053ed87021a547747897c16a9cbf1e1b,
@@ -662,4 +697,13 @@ PrefabInstance:
       value: Autopilot
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 053ed87021a547747897c16a9cbf1e1b, type: 3}
+--- !u!4 &4791252036806894813 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4095416709289502216, guid: 053ed87021a547747897c16a9cbf1e1b,
+    type: 3}
+  m_PrefabInstance: {fileID: 8838355619977855701}
+  m_PrefabAsset: {fileID: 0}

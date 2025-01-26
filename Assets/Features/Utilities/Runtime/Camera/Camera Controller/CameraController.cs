@@ -31,6 +31,9 @@ namespace Perrinn424.CameraSystem
         public GameObject physicsCameraFront;
         public GameObject physicsCameraRear;
 
+        [SerializeField]
+        Mode defaultCameraMode = Mode.SmoothFollow;
+
         private VPCameraController m_vppController;
         private CinemachineBrain m_cmController;
         private CameraFovController m_fovController;
@@ -45,6 +48,7 @@ namespace Perrinn424.CameraSystem
             m_cmController = tvCameraSystem.GetComponent<CinemachineBrain>();
             m_fovController = mainCamera.GetComponent<CameraFovController>();
             m_savedCameraFov = mainCamera.fieldOfView;
+            SetMode(defaultCameraMode);
             UpdateMode();
         }
 

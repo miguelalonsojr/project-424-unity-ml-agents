@@ -20,6 +20,9 @@ namespace Perrinn424.TelemetryLapSystem
         private bool disableOnBuilds = true;
 
         [SerializeField]
+        bool disableInEditor = true;
+
+        [SerializeField]
         private Frequency frequency;
 
         private DataRow dataRow;
@@ -34,12 +37,12 @@ namespace Perrinn424.TelemetryLapSystem
 
         public override void OnEnableVehicle()
         {
-            if (disableOnBuilds && !Application.isEditor)
-                {
+            if (disableOnBuilds && !Application.isEditor || disableInEditor)
+            {
                 // OnDisableVehicle won't be called if the component is disabled here
                 enabled = false;
                 return;
-                }
+            }
 
             lapTimer.onBeginLap += LapBeginEventHandler;
             lapTimer.onLap += LapCompletedEventHandler;
@@ -78,7 +81,6 @@ namespace Perrinn424.TelemetryLapSystem
             units.AddRange(channels.Units);
         }
 
-
         private void LapBeginEventHandler()
         {
             file.StartRecording();
@@ -92,7 +94,7 @@ namespace Perrinn424.TelemetryLapSystem
 
         private void FixedUpdate()
         {
-            if (frequency.Update(Time.deltaTime)  && file.IsRecordingReady)
+            if (frequency.Update(Time.deltaTime) && file.IsRecordingReady)
             {
                 channels.RefreshIfNeeded();
                 WriteLine();
@@ -162,7 +164,6 @@ namespace Perrinn424.TelemetryLapSystem
             }
         }
 
-
         private TelemetryLapMetadata CreateRegularLapMetadata(float lapTime, float[] sectors)
         {
             return CreateCommonMetadata(lapTime, true, sectors.Length, sectors.ToArray()); //sectors.ToArray() => make copy
@@ -175,16 +176,15 @@ namespace Perrinn424.TelemetryLapSystem
             //if the sector is valid, get its time. Infinity otherwise
             var sectorsTime =
                 lapTimer
-                .currentValidSectors
-                .Select((validSector, index) => validSector ? lapTimer.currentSectors[index] : float.PositiveInfinity)
-                .ToArray();
+                    .currentValidSectors
+                    .Select((validSector, index) => validSector ? lapTimer.currentSectors[index] : float.PositiveInfinity)
+                    .ToArray();
 
             return CreateCommonMetadata(lapTimer.currentLapTime, false, completedSectors, sectorsTime);
         }
 
-        private TelemetryLapMetadata CreateCommonMetadata(float lapTime, bool isCompleted, float completedSectors, float [] sectorsTime)
+        private TelemetryLapMetadata CreateCommonMetadata(float lapTime, bool isCompleted, float completedSectors, float[] sectorsTime)
         {
-
             TelemetryLapMetadata metadata = new TelemetryLapMetadata()
             {
                 trackName = SceneManager.GetActiveScene().name,

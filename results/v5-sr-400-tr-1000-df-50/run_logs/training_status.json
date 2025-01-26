@@ -1,0 +1,56 @@
+{
+    "Perrinn424Agent": {
+        "checkpoints": [
+            {
+                "steps": 999982,
+                "file_path": "results/v5-sr-400-tr-1000-df-50/Perrinn424Agent/Perrinn424Agent-999982.onnx",
+                "reward": 0.6508068244904279,
+                "creation_time": 1734963451.9975722,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50/Perrinn424Agent/Perrinn424Agent-999982.pt"
+                ]
+            },
+            {
+                "steps": 1999972,
+                "file_path": "results/v5-sr-400-tr-1000-df-50/Perrinn424Agent/Perrinn424Agent-1999972.onnx",
+                "reward": 0.6080648307300484,
+                "creation_time": 1734966976.038249,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50/Perrinn424Agent/Perrinn424Agent-1999972.pt"
+                ]
+            },
+            {
+                "steps": 2999996,
+                "file_path": "results/v5-sr-400-tr-1000-df-50/Perrinn424Agent/Perrinn424Agent-2999996.onnx",
+                "reward": 0.6035862838228544,
+                "creation_time": 1734970509.0699909,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50/Perrinn424Agent/Perrinn424Agent-2999996.pt"
+                ]
+            },
+            {
+                "steps": 3411658,
+                "file_path": "results/v5-sr-400-tr-1000-df-50/Perrinn424Agent/Perrinn424Agent-3411658.onnx",
+                "reward": 0.5116852786795605,
+                "creation_time": 1734971971.619272,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50/Perrinn424Agent/Perrinn424Agent-3411658.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3411658,
+            "file_path": "results/v5-sr-400-tr-1000-df-50/Perrinn424Agent.onnx",
+            "reward": 0.5116852786795605,
+            "creation_time": 1734971971.619272,
+            "auxillary_file_paths": [
+                "results/v5-sr-400-tr-1000-df-50/Perrinn424Agent/Perrinn424Agent-3411658.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.4.1"
+    }
+}

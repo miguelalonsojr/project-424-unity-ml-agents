@@ -1,0 +1,470 @@
+{
+    "Perrinn424Agent": {
+        "checkpoints": [
+            {
+                "steps": 3999958,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-3999958.onnx",
+                "reward": 0.49178907351485507,
+                "creation_time": 1734986465.099373,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-3999958.pt"
+                ]
+            },
+            {
+                "steps": 4999379,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-4999379.onnx",
+                "reward": 0.5187062118202448,
+                "creation_time": 1734989968.1736479,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-4999379.pt"
+                ]
+            },
+            {
+                "steps": 4999987,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-4999987.onnx",
+                "reward": 0.01435790304094553,
+                "creation_time": 1734992019.66121,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-4999987.pt"
+                ]
+            },
+            {
+                "steps": 5999993,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-5999993.onnx",
+                "reward": 0.4182909280752619,
+                "creation_time": 1734995523.415333,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-5999993.pt"
+                ]
+            },
+            {
+                "steps": 6999966,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-6999966.onnx",
+                "reward": 0.4848056513932534,
+                "creation_time": 1734999060.8173351,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-6999966.pt"
+                ]
+            },
+            {
+                "steps": 7999963,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-7999963.onnx",
+                "reward": 0.37265093111739134,
+                "creation_time": 1735002628.468564,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-7999963.pt"
+                ]
+            },
+            {
+                "steps": 8999993,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-8999993.onnx",
+                "reward": 0.5334544321602266,
+                "creation_time": 1735006179.018274,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-8999993.pt"
+                ]
+            },
+            {
+                "steps": 9998829,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-9998829.onnx",
+                "reward": 0.6330546280369163,
+                "creation_time": 1735009753.501368,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-9998829.pt"
+                ]
+            },
+            {
+                "steps": 9999980,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-9999980.onnx",
+                "reward": 0.0,
+                "creation_time": 1735015264.237259,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-9999980.pt"
+                ]
+            },
+            {
+                "steps": 10999955,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-10999955.onnx",
+                "reward": 0.5605799036566168,
+                "creation_time": 1735019062.663711,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-10999955.pt"
+                ]
+            },
+            {
+                "steps": 11999963,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-11999963.onnx",
+                "reward": null,
+                "creation_time": 1735022584.886243,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-11999963.pt"
+                ]
+            },
+            {
+                "steps": 12999952,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-12999952.onnx",
+                "reward": 0.572225981202502,
+                "creation_time": 1735026060.767562,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-12999952.pt"
+                ]
+            },
+            {
+                "steps": 13999995,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-13999995.onnx",
+                "reward": 0.5838074600324035,
+                "creation_time": 1735029534.464285,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-13999995.pt"
+                ]
+            },
+            {
+                "steps": 14999950,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-14999950.onnx",
+                "reward": 0.5645283286990384,
+                "creation_time": 1735033003.501751,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-14999950.pt"
+                ]
+            },
+            {
+                "steps": 15999988,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-15999988.onnx",
+                "reward": 0.5512976553291082,
+                "creation_time": 1735036475.5787132,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-15999988.pt"
+                ]
+            },
+            {
+                "steps": 16999993,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-16999993.onnx",
+                "reward": 0.5464595316942515,
+                "creation_time": 1735039937.265291,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-16999993.pt"
+                ]
+            },
+            {
+                "steps": 17999960,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-17999960.onnx",
+                "reward": null,
+                "creation_time": 1735043412.0537841,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-17999960.pt"
+                ]
+            },
+            {
+                "steps": 18999970,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-18999970.onnx",
+                "reward": 0.6349001755006611,
+                "creation_time": 1735046895.958724,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-18999970.pt"
+                ]
+            },
+            {
+                "steps": 19999968,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-19999968.onnx",
+                "reward": 0.5750654738972356,
+                "creation_time": 1735050382.516041,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-19999968.pt"
+                ]
+            },
+            {
+                "steps": 20999990,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-20999990.onnx",
+                "reward": 0.5912479332083684,
+                "creation_time": 1735053853.676139,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-20999990.pt"
+                ]
+            },
+            {
+                "steps": 21999976,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-21999976.onnx",
+                "reward": 0.6482196006303033,
+                "creation_time": 1735057330.503156,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-21999976.pt"
+                ]
+            },
+            {
+                "steps": 22999981,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-22999981.onnx",
+                "reward": 0.6304733636123794,
+                "creation_time": 1735060836.61123,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-22999981.pt"
+                ]
+            },
+            {
+                "steps": 23999993,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-23999993.onnx",
+                "reward": 0.5242468532353131,
+                "creation_time": 1735064357.230783,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-23999993.pt"
+                ]
+            },
+            {
+                "steps": 24999994,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-24999994.onnx",
+                "reward": 0.6272769879017558,
+                "creation_time": 1735067881.422333,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-24999994.pt"
+                ]
+            },
+            {
+                "steps": 25999980,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-25999980.onnx",
+                "reward": 0.5680926848362496,
+                "creation_time": 1735071405.7842932,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-25999980.pt"
+                ]
+            },
+            {
+                "steps": 26999984,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-26999984.onnx",
+                "reward": 0.5798068638292274,
+                "creation_time": 1735074924.857923,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-26999984.pt"
+                ]
+            },
+            {
+                "steps": 27999983,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-27999983.onnx",
+                "reward": 0.612055082079678,
+                "creation_time": 1735078446.8127549,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-27999983.pt"
+                ]
+            },
+            {
+                "steps": 28999988,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-28999988.onnx",
+                "reward": 0.6099091817935308,
+                "creation_time": 1735081970.2557921,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-28999988.pt"
+                ]
+            },
+            {
+                "steps": 29999952,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-29999952.onnx",
+                "reward": 0.5177107464068182,
+                "creation_time": 1735085484.628315,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-29999952.pt"
+                ]
+            },
+            {
+                "steps": 30999976,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-30999976.onnx",
+                "reward": 0.5626055190336703,
+                "creation_time": 1735089000.870173,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-30999976.pt"
+                ]
+            },
+            {
+                "steps": 31999984,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-31999984.onnx",
+                "reward": 0.5910210371244773,
+                "creation_time": 1735092524.5025432,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-31999984.pt"
+                ]
+            },
+            {
+                "steps": 32999956,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-32999956.onnx",
+                "reward": 0.6269703380142649,
+                "creation_time": 1735096041.251528,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-32999956.pt"
+                ]
+            },
+            {
+                "steps": 33999997,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-33999997.onnx",
+                "reward": 0.6008974361983646,
+                "creation_time": 1735099560.37521,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-33999997.pt"
+                ]
+            },
+            {
+                "steps": 34999971,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-34999971.onnx",
+                "reward": 0.5827904767991806,
+                "creation_time": 1735103090.14171,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-34999971.pt"
+                ]
+            },
+            {
+                "steps": 35999992,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-35999992.onnx",
+                "reward": 0.606476550064114,
+                "creation_time": 1735106600.721489,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-35999992.pt"
+                ]
+            },
+            {
+                "steps": 36999960,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-36999960.onnx",
+                "reward": 0.6728554412256926,
+                "creation_time": 1735110111.114502,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-36999960.pt"
+                ]
+            },
+            {
+                "steps": 37999974,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-37999974.onnx",
+                "reward": 0.6312056246768827,
+                "creation_time": 1735113631.579417,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-37999974.pt"
+                ]
+            },
+            {
+                "steps": 38999995,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-38999995.onnx",
+                "reward": 0.5857635704492817,
+                "creation_time": 1735117146.473205,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-38999995.pt"
+                ]
+            },
+            {
+                "steps": 39999993,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-39999993.onnx",
+                "reward": 0.6189645944439083,
+                "creation_time": 1735120665.836494,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-39999993.pt"
+                ]
+            },
+            {
+                "steps": 40999955,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-40999955.onnx",
+                "reward": 0.6393772882875055,
+                "creation_time": 1735124173.6907089,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-40999955.pt"
+                ]
+            },
+            {
+                "steps": 41999951,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-41999951.onnx",
+                "reward": 0.5968218058731187,
+                "creation_time": 1735127702.31851,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-41999951.pt"
+                ]
+            },
+            {
+                "steps": 42999966,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-42999966.onnx",
+                "reward": 0.6658417830864588,
+                "creation_time": 1735131223.1199129,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-42999966.pt"
+                ]
+            },
+            {
+                "steps": 43999968,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-43999968.onnx",
+                "reward": 0.5797778108667146,
+                "creation_time": 1735134755.645642,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-43999968.pt"
+                ]
+            },
+            {
+                "steps": 44999970,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-44999970.onnx",
+                "reward": 0.6346731645365556,
+                "creation_time": 1735138262.768503,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-44999970.pt"
+                ]
+            },
+            {
+                "steps": 45999979,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-45999979.onnx",
+                "reward": 0.5783172200806899,
+                "creation_time": 1735141772.281899,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-45999979.pt"
+                ]
+            },
+            {
+                "steps": 46999954,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-46999954.onnx",
+                "reward": 0.6512363608926535,
+                "creation_time": 1735145293.152647,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-46999954.pt"
+                ]
+            },
+            {
+                "steps": 47999961,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-47999961.onnx",
+                "reward": 0.575456677756073,
+                "creation_time": 1735148831.524114,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-47999961.pt"
+                ]
+            },
+            {
+                "steps": 48999966,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-48999966.onnx",
+                "reward": 0.6561036437217679,
+                "creation_time": 1735152336.8295429,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-48999966.pt"
+                ]
+            },
+            {
+                "steps": 49999964,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-49999964.onnx",
+                "reward": 0.6228399319489571,
+                "creation_time": 1735155857.911881,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-49999964.pt"
+                ]
+            },
+            {
+                "steps": 50000064,
+                "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-50000064.onnx",
+                "reward": 0.6185365965804801,
+                "creation_time": 1735155857.937313,
+                "auxillary_file_paths": [
+                    "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-50000064.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 50000064,
+            "file_path": "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent.onnx",
+            "reward": 0.6185365965804801,
+            "creation_time": 1735155857.937313,
+            "auxillary_file_paths": [
+                "results/v5-sr-400-tr-1000-df-50-scratch/Perrinn424Agent/Perrinn424Agent-50000064.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.2.0.dev0",
+        "torch_version": "2.4.1"
+    }
+}
